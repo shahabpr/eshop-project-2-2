@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afcd2d86-6283-44d5-8a6b-5dd276fef095" name="Changes" comment="first Commit:&#10;first structure &#10;models, views, templates,&#10;urls, settings">
+    <list default="true" id="afcd2d86-6283-44d5-8a6b-5dd276fef095" name="Changes" comment="first Commit:&#10; first structure: models, views, templates, urls, settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,13 +29,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "history": [
@@ -47,20 +42,21 @@
       "state": "OPEN",
       "assignee": "shahabpr",
       "author": "shahabpr"
+    },
+    {
+      "assignee": "shahabpr"
     }
   ],
   "lastFilter": {
-    "state": "OPEN",
-    "assignee": "shahabpr",
-    "author": "shahabpr"
+    "assignee": "shahabpr"
   }
 }]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/shahabpr/Eshop_Project_2",
-    "accountId": "0e14d6c3-85ed-4e6a-9423-547317353035"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shahabpr/Eshop_Project_2&quot;,
+    &quot;accountId&quot;: &quot;0e14d6c3-85ed-4e6a-9423-547317353035&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -89,6 +85,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "python.lsp.tool.dont.ask.basedpyright": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "settings.editor.splitter.proportion": "0.39236394",
     "vue.rearranger.settings.migration": "true"
@@ -131,6 +128,7 @@
       <workItem from="1785777345597" duration="4788000" />
       <workItem from="1785784386251" duration="2930000" />
       <workItem from="1785787351711" duration="4300000" />
+      <workItem from="1785795684292" duration="1431000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="first Commit:&#10;first structure &#10;models, views, templates,&#10;urls, settings">
       <option name="closed" value="true" />
@@ -146,15 +144,77 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۲" />
       <updated>1785795198580</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎−۰۰۰۰۳" summary="fixup! first Commit: first structure models, views, templates, urls, settings">
+      <option name="closed" value="true" />
+      <created>1785795947501</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۳" />
+      <updated>1785795947501</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۴" summary="fixup! fixup! first Commit: first structure models, views, templates, urls, settings">
+      <option name="closed" value="true" />
+      <created>1785796058519</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۴" />
+      <updated>1785796058519</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۵" summary="first Commit:&#10; first structure: models, views, templates, urls, settings">
+      <option name="closed" value="true" />
+      <created>1785796847891</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۵" />
+      <updated>1785796847891</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixup! first Commit: first structure models, views, templates, urls, settings" />
     <MESSAGE value="first Commit:&#10;first structure &#10;models, views, templates,&#10;urls, settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="first Commit:&#10;first structure &#10;models, views, templates,&#10;urls, settings" />
+    <MESSAGE value="fixup! fixup! first Commit: first structure models, views, templates, urls, settings" />
+    <MESSAGE value="first Commit:&#10; first structure: models, views, templates, urls, settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="first Commit:&#10; first structure: models, views, templates, urls, settings" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Eshop_Project_2$settings.coverage" NAME="settings Coverage Results" MODIFIED="1785784045274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eshop_project_2" />
