@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ product.name }}{% endblock %}
+
+{% block header %}
+    <a href="{% url 'home' %}">صفحه اصلی - هوم</a>
+    <br><br>
+    <a href="{% url 'product_list' %}">صفحه محصولات</a>
+{% endblock %}
+
+{% block content %}
+    <P>نام محصول: {{ product.name }}</P>
+    <p>قیمت: {{ product.price }}</p>
+{% endblock %}
+
+
