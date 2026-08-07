@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from eshop.models import Product
 
 
@@ -12,9 +12,12 @@ def product_list(request):
     })
 
 
-
 def product_detail(request, slug):
-    product = Product.objects.get(slug=slug)
+    # try:
+    #     product = Product.objects.get(slug=slug)
+    # except:
+    #     raise Http404
+    product = get_object_or_404(Product, slug=slug)
     return render(request, 'product_detail.html', {
         'product': product,
     })

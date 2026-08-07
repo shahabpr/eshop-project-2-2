@@ -2,24 +2,25 @@
 {% load static %}
 
 {% block title %}
-product list
+    product list
 {% endblock %}
 
 {% block header %}
-    <a href="{% url 'home' %}">صفحه اصلی - هوم</a>
+    <br>
+    <a href="{% url 'home' %}" style="text-decoration: none; color: magenta">صفحه اصلی</a>
 {% endblock %}
 
 {% block content %}
-<div>
-    <ul>
-        <li>
-            {% for product in products %}
-            <a href="{{ product.get_absolute_url }}">
-                <p>نام محصول:{{ product.name }} --- قیمت محصول: {{ product.price }}</p>
-            </a>
-            {% endfor %}
-        </li>
-    </ul>
-</div>
+    <div>
+        <ul style="list-style:none">
+            <li>
+                {% for product in products %}
+                    <a href="{{ product.get_absolute_url }}" style="text-decoration: none; color: purple;">
+                        <p>نام محصول:{{ product.name }} --- قیمت محصول: {{ product.price }}</p>
+                    </a>
+                {% endfor %}
+            </li>
+        </ul>
+    </div>
 {% endblock %}
 

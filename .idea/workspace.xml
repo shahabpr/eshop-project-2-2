@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afcd2d86-6283-44d5-8a6b-5dd276fef095" name="Changes" comment="first Commit:&#10; first structure: models, views, templates, urls, settings">
+    <list default="true" id="afcd2d86-6283-44d5-8a6b-5dd276fef095" name="Changes" comment="second Commit:&#10; first structure: models, views, templates, urls, settings">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/85063c55-2690-4eca-b422-82605ce407bc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/85063c55-2690-4eca-b422-82605ce407bc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/templates/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/templates/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/templates/product_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop_project_2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop_project_2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop_project_2/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop_project_2/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop_project_2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop_project_2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseLocalColorSettings">
-    <colors>
-      <entry key="85063c55-2690-4eca-b422-82605ce407bc" value="Blue" />
-    </colors>
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="Eshop_Project_2" is-module-sdk="true" working-directory="$PROJECT_DIR$/eshop_project_2">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -51,12 +61,12 @@
     &quot;assignee&quot;: &quot;shahabpr&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/shahabpr/eshop-project-2-2.git",
-    "accountId": "0e14d6c3-85ed-4e6a-9423-547317353035"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shahabpr/eshop-project-2-2.git&quot;,
+    &quot;accountId&quot;: &quot;0e14d6c3-85ed-4e6a-9423-547317353035&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -69,33 +79,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.product_detail.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.product_list.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.settings.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;python.lsp.tool.dont.ask.basedpyright&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.39236394&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.Eshop_Project_2.executor": "Run",
+    "Django Server.eshop-proj-2.executor": "Run",
+    "Django Server.eshop-project-2.executor": "Run",
+    "Django Server.eshop_proj_2.executor": "Run",
+    "Django tests.Unnamed.executor": "Run",
+    "JavaScript Debug.product_detail.html.executor": "Run",
+    "JavaScript Debug.product_list.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.manage.executor": "Run",
+    "Python.settings.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "nodejs_package_manager_path": "npm",
+    "python.lsp.tool.dont.ask.basedpyright": "true",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.splitter.proportion": "0.39236394",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;repository&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Eshop_Project_2" is-module-sdk="true" working-directory="$PROJECT_DIR$/eshop_project_2">
@@ -104,6 +121,87 @@
         <option name="myWorkingDirectory" value="$PROJECT_DIR$/eshop_project_2" />
       </console-settings>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="Eshop_Project_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/Scripts/python.exe" />
+      <option name="SDK_NAME" value="Python 3.14 (Eshop_Project_2)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Eshop_Project_2" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Eshop_Project_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="DJANGO_SETTINGS_MODULE" value="eshop_project_2.settings" />
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.14 (Eshop_Project_2)" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Elham\PycharmProjects\Eshop_Project_2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Eshop_Project_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.14 (Eshop_Project_2)" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Elham\PycharmProjects\Eshop_Project_2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -129,7 +227,11 @@
       <workItem from="1785784386251" duration="2930000" />
       <workItem from="1785787351711" duration="4300000" />
       <workItem from="1785795684292" duration="1431000" />
-      <workItem from="1785834360142" duration="6192000" />
+      <workItem from="1785834360142" duration="11837000" />
+      <workItem from="1785929113557" duration="11154000" />
+      <workItem from="1785963052763" duration="2661000" />
+      <workItem from="1786014575638" duration="13790000" />
+      <workItem from="1786131404878" duration="608000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="first Commit:&#10;first structure &#10;models, views, templates,&#10;urls, settings">
       <option name="closed" value="true" />
@@ -173,7 +275,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۶" />
       <updated>1785834452484</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎−۰۰۰۰۷" summary="second Commit:&#10; first structure: models, views, templates, urls, settings">
+      <option name="closed" value="true" />
+      <created>1785859429578</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۷" />
+      <updated>1785859429578</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,9 +331,12 @@
     <MESSAGE value="first Commit:&#10;first structure &#10;models, views, templates,&#10;urls, settings" />
     <MESSAGE value="fixup! fixup! first Commit: first structure models, views, templates, urls, settings" />
     <MESSAGE value="first Commit:&#10; first structure: models, views, templates, urls, settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="first Commit:&#10; first structure: models, views, templates, urls, settings" />
+    <MESSAGE value="second Commit:&#10; first structure: models, views, templates, urls, settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="second Commit:&#10; first structure: models, views, templates, urls, settings" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Eshop_Project_2$settings.coverage" NAME="settings Coverage Results" MODIFIED="1785784045274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eshop_project_2" />
+    <SUITE FILE_PATH="coverage/Eshop_Project_2$settings.coverage" NAME="settings Coverage Results" MODIFIED="1785929386205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eshop_project_2" />
+    <SUITE FILE_PATH="coverage/Eshop_Project_2$manage.coverage" NAME="manage Coverage Results" MODIFIED="1785934561556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Eshop_Project_2$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1786030331368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
