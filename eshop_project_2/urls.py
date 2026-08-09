@@ -22,6 +22,6 @@ from . import views
 
 urlpatterns = [
     path('admin', admin.site.urls),
-    path('', views.home, name='home'),
-    path('eshop/', include('eshop.urls'))
+    path('', include('home_module.urls')),
+    path('eshop', include('eshop.urls'))
 ]

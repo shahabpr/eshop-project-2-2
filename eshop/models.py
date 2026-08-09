@@ -29,7 +29,7 @@ class ProductCategory(models.Model):
 
 
 class Product(models.Model):
-    name = models.CharField(max_length=200, verbose_name="نام محصول")
+    name = models.CharField(max_length=200, verbose_name="نام محصول", unique=True)
     price = models.DecimalField(max_digits=10, decimal_places=2, verbose_name="قیمت")
     short_description = models.CharField(max_length=300, null=True, blank=True, verbose_name='توضیحات کوتاه')
     description = models.TextField(null=True, blank=True, verbose_name='توضیحات مفصل')
@@ -43,7 +43,7 @@ class Product(models.Model):
         return self.name
 
     def save(self, *args, **kwargs):
-        self.slug = slugify(self.name)
+        # self.slug = slugify(self.name)
         super().save(*args, **kwargs)
 
     def get_absolute_url(self):
