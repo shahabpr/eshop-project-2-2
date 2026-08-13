@@ -30,7 +30,7 @@ class ProductCategory(models.Model):
 
 class Product(models.Model):
     name = models.CharField(max_length=200, verbose_name="نام محصول", unique=True)
-    price = models.DecimalField(max_digits=10, decimal_places=2, verbose_name="قیمت")
+    price = models.IntegerField(verbose_name="قیمت")
     short_description = models.CharField(max_length=300, null=True, blank=True, verbose_name='توضیحات کوتاه')
     description = models.TextField(null=True, blank=True, verbose_name='توضیحات مفصل')
     categories = models.ManyToManyField(ProductCategory, verbose_name='دسته بندی ها', related_name='categories')
