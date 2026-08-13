@@ -4,7 +4,6 @@ from eshop.models import Product
 
 def product_list(request):
     products = Product.objects.all()
-
     return render(request, 'eshop/product_list.html', {
         'products': products,
     })
