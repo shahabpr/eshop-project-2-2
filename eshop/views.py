@@ -3,8 +3,7 @@ from eshop.models import Product
 
 
 def product_list(request):
-    products = Product.objects.all()
-
+    products = Product.objects.all().order_by('-id')[:6]
     return render(request, 'eshop/product_list.html', {
         'products': products,
     })
