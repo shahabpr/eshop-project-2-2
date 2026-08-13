@@ -2,97 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afcd2d86-6283-44d5-8a6b-5dd276fef095" name="Changes" comment="3rd Commit:&#10; improve a little structure: models, views, templates, urls, settings">
-      <change afterPath="$PROJECT_DIR$/home_module/templates/home_module/about_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_module/templates/home_module/contact_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_module/templates/home_module/home_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_module/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/prettyPhoto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/price-range.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/BYekan.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/BYekan.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/BYekan.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/BYekan.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/404/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/blog/Customer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/blog/blog-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/blog/blog-one.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/blog/socials.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/cart/Card.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/cart/one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/cart/three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/cart/two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/About-Logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/Gallery.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/Gallery.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/Map.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/Slider-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/Slider.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/Tabs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/Tabs.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/bg_border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/girl2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/partner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/partner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/partner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/partner4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/pricing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/product1.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/sale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/searchicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/shipping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/Bale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/Instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/Main.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/Similar.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/Socials.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/Soroush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/Telegram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/new.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/rating.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/similar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/similar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/product-details/similar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shop/advertisement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shop/product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.scrollUp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/price-range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/shared/base_layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/shared/footer_references.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/shared/head_references.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/shared/site_footer_component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/shared/site_header_component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eshop/templates/eshop/product_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eshop/templates/partials/product_item_partial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_module/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_module/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_module/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_module/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_module/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home_module/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eshop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eshop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eshop_project_2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop_project_2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/templates/eshop/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/templates/product_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eshop_project_2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eshop_project_2/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_module/templates/home_module/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home_module/templates/home_module/home_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_module/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_module/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shared/base_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shared/base_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shared/footer_references.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shared/footer_references.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shared/head_references.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shared/head_references.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shared/site_footer_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shared/site_footer_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shared/site_header_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shared/site_header_component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,41 +85,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.Eshop_Project_2.executor": "Run",
-    "Django Server.eshop-proj-2.executor": "Run",
-    "Django Server.eshop-project-2.executor": "Run",
-    "Django Server.eshop_proj_2.executor": "Run",
-    "Django tests.Unnamed.executor": "Run",
-    "JavaScript Debug.product_detail.html.executor": "Run",
-    "JavaScript Debug.product_list.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.manage.executor": "Run",
-    "Python.settings.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Elham/PycharmProjects/Eshop_Project_2/static",
-    "nodejs_package_manager_path": "npm",
-    "python.lsp.tool.dont.ask.basedpyright": "true",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "settings.editor.splitter.proportion": "0.39236394",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.Eshop_Project_2.executor&quot;: &quot;Run&quot;,
+    &quot;Django Server.eshop-proj-2.executor&quot;: &quot;Run&quot;,
+    &quot;Django Server.eshop-project-2.executor&quot;: &quot;Run&quot;,
+    &quot;Django Server.eshop_proj_2.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.product_detail.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.product_list.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.settings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Elham/PycharmProjects/Eshop_Project_2/static&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.lsp.tool.dont.ask.basedpyright&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.39236394&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Eshop_Project_2" is-module-sdk="true" working-directory="$PROJECT_DIR$/eshop_project_2">
@@ -203,6 +134,7 @@
       <recent name="C:\Users\Elham\PycharmProjects\Eshop_Project_2\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Elham\PycharmProjects\Eshop_Project_2\eshop\templates\eshop" />
       <recent name="C:\Users\Elham\PycharmProjects\Eshop_Project_2\templates\shared" />
     </key>
   </component>
