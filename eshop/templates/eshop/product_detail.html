@@ -62,7 +62,7 @@
                                     <span>
 										<label>تعداد :</label>
 										<input type="text" value="3" class="search_box">
-										<button type="button" class="btn btn-fefault cart">
+										<button type="button" class="btn btn-default cart">
 											<i class="fa fa-shopping-cart"></i>
 											افـزودن به سبـد خریـد
 										</button>
@@ -71,7 +71,10 @@
                                 <div>
                                     <p><b>موجـودی :</b> در انبـار موجود می باشد</p>
                                     <p><b>شرایـط :</b> جدیـد</p>
-                                    <p><b>برنـد :</b> برنـد </p>
+                                    {% if product.brand %}
+                                        <p><b>برنـد : {{ product.brand.title }}</b>
+                                        </p>
+                                    {% endif %}
                                 </div>
                                 <span class="socials-share share">
 									<ul>
