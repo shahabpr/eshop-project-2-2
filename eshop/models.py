@@ -1,5 +1,5 @@
 from django.db import models
-from django.utils.text import slugify
+# from django.utils.text import slugify
 from django.urls import reverse
 
 # HashtagP ~ HashtagProduct
@@ -44,7 +44,7 @@ class Product(models.Model):
     short_description = models.CharField(max_length=300, null=True, blank=True, verbose_name='توضیحات کوتاه')
     description = models.TextField(null=True, blank=True, verbose_name='توضیحات مفصل')
     categories = models.ManyToManyField(ProductCategory, verbose_name='دسته بندی ها', related_name='categories')
-    brand = models.ForeignKey(ProductBrand,on_delete=models.CASCADE, verbose_name='برند', null=True, related_name='brand')
+    brand = models.ForeignKey(ProductBrand,on_delete=models.CASCADE, verbose_name='برند', null=True, blank=True)
     hashtags = models.ManyToManyField(HashtagP, verbose_name='هشتگ ها', related_name='hashtags')
     slug = models.SlugField(default='', null=False, verbose_name='url محصول', max_length=200, unique=True)
     is_active = models.BooleanField(default=False, verbose_name='فعال/غیرفعال')
