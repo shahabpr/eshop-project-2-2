@@ -1,1 +1,8 @@
-/.venv/
+.venv/*
+/eshop/migrations/*
+/home_module/migrations/*
+db.sqlite3
+.idea
+.gitignore
+*.iml
+*.xml
