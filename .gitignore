@@ -1,0 +1,10 @@
+/.venv/
+.idea
+db.sqlite3
+*.xml
+*.iml
+/eshop/__pycache__
+/home_module/__pycache__
+/eshop_project_2/__pycache__
+/eshop/migrations
+/home_module/migrations

@@ -1,5 +1,6 @@
-from django.shortcuts import render
-
+from django.shortcuts import render, redirect
+from django.urls import reverse
+from .forms import ContactUsForm
 
 def home_page(request):
     return render(request, 'home_module/home_page.html')
@@ -7,8 +8,18 @@ def home_page(request):
 def about_page(request):
     return render(request, 'home_module/about_page.html')
 
+
 def contact_page(request):
-    return render(request, 'home_module/contact_page.html')
+    if request.method == 'POST':
+        contactus_form = ContactUsForm(request.POST)
+        if contactus_form.is_valid():
+            print(contactus_form.cleaned_data)
+            return redirect('home_page')
+
+    contactus_form = ContactUsForm()
+    return render(request, 'home_module/contact_page.html', {
+        'contactus_form': contactus_form
+    })
 
 def site_header_component(request):
     context = {
